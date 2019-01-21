@@ -21,6 +21,7 @@ BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODG
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="beryllium-user 8.1.0 OPM1.171019.011 V9.6.18.0.OEJMIFD release-keys" \
     PRODUCT_NAME="beryllium" \
-    TARGET_DEVICE="beryllium"
+    TARGET_DEVICE="beryllium" \
+    DEVICE_MAINTAINERS="Alx31"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
