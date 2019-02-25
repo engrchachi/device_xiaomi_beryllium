@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common validus stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+# Inherit some common gzosp stuff.
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := validus_beryllium
+PRODUCT_NAME := gzosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Poco F1
